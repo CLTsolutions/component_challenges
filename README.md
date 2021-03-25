@@ -4,7 +4,7 @@ Basically a clone of the blueprint's ccc repo using vite
 
 ## To use it
 
-1. Clone the repo and navigate into the directory
+1. Clone the [repo](https://github.com/ElevenfiftyAcademy/WD-classComponentChallenges-vite.git) and navigate into the directory
 2. `npm install` to install the packages
 3. `npm run dev` to start the dev server
 4. In browser, go to `localhost:3000` manually
