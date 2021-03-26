@@ -1,13 +1,14 @@
-import React from 'react';
-// import SearchIndex from './SearchIndex';
+import React, { Component } from 'react';
+import SearchIndex from './SearchIndex';
 import { Container } from 'reactstrap';
  
-const Search = () => {
+export default class Search extends Component {
+  render () {
    return (
      <Container className="App">
      <br />
        <h1 className="App-intro">
-     In this challenge your goal is to use the existing code (with some debugging!) to create the following: 
+        In this challenge your goal is to use the existing code (with some debugging!) to create the following: 
        </h1>
        <hr />
        <ul>
@@ -22,10 +23,8 @@ const Search = () => {
          </li>
        </ul>
        <hr />
-       {/* <SearchIndex /> */}
+       <SearchIndex />
      </Container>
    );
-
+  }
 }
- 
-export default Search;
